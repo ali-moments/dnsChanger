@@ -65,9 +65,8 @@ A simple Windows desktop application to quickly change the DNS servers of your n
 
 ## Building
 
-1. Clone the repository:```sh
-git clone https://github.com/yourusername/dnsChanger.git
-```2. Open the solution in Visual Studio 2022.
+1. Clone the repository:```sh git clone https://github.com/yourusername/dnsChanger.git```
+2. Open the solution in Visual Studio 2022.
 3. Restore NuGet packages (MaterialSkin).
 4. Build and run.
 
@@ -78,4 +77,4 @@ git clone https://github.com/yourusername/dnsChanger.git
 
 ## License
 
-[MIT](LICENSE)
+[GPL3](LICENSE)

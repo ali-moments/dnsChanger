@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B175A238FF0A48208DC9970DEFB0F9C3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E6E3D1E198BC18206ACE53C42E245AFE"
         "OwnerKey" = "8:_F1FBFDD2CAB145B79DA7E304518F10A7"
         "MsmSig" = "8:_UNDEFINED"
@@ -34,12 +40,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_56984EC65B66C4842B97BAD338445540"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_F1FBFDD2CAB145B79DA7E304518F10A7"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -47,6 +47,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_E6E3D1E198BC18206ACE53C42E245AFE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_56984EC65B66C4842B97BAD338445540"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +73,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -83,6 +97,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -141,6 +171,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B175A238FF0A48208DC9970DEFB0F9C3"
+            {
+            "SourcePath" = "8:..\\dnsChanger\\appicon.ico"
+            "TargetName" = "8:appicon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_43BE30418A044D9A9783369A013CF5ED"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E6E3D1E198BC18206ACE53C42E245AFE"
@@ -362,7 +412,7 @@
             "Target" = "8:_F1FBFDD2CAB145B79DA7E304518F10A7"
             "Folder" = "8:_0E8A5809C8F349C58D34EBA0918B335A"
             "WorkingFolder" = "8:_43BE30418A044D9A9783369A013CF5ED"
-            "Icon" = "8:"
+            "Icon" = "8:_B175A238FF0A48208DC9970DEFB0F9C3"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_70E05CAD4C694D9A95454968F91D60C5"
@@ -376,7 +426,7 @@
             "Target" = "8:_F1FBFDD2CAB145B79DA7E304518F10A7"
             "Folder" = "8:_42D1F22762094292A61299421DEE6862"
             "WorkingFolder" = "8:_43BE30418A044D9A9783369A013CF5ED"
-            "Icon" = "8:"
+            "Icon" = "8:_B175A238FF0A48208DC9970DEFB0F9C3"
             "Feature" = "8:"
             }
         }
