@@ -84,3 +84,23 @@ A simple Windows desktop application to quickly change the DNS servers of your n
 - [ ] add more dns servers
 - [ ] set custom dns server
 - [ ] show current dns on startup
+
+
+<!--  
+Mikhak
+185.55.226.26
+185.55.225.25
+
+Erfun DNS
+91.107.174.79
+79.127.127.2
+
+
+OpenDNS
+208.67.222.222
+208.67.220.220
+
+AdGuard DNS
+94.140.14.14
+94.140.15.15
+-->
