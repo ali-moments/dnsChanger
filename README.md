@@ -42,9 +42,8 @@ A simple Windows desktop application to quickly change the DNS servers of your n
 
 ### Download from GitHub Releases
 
-1. Go to the [Releases page](https://github.com/yourusername/dnsChanger/releases).
-2. Download the latest `dnsChanger.zip` or `.exe` file.
-3. Extract (if zipped) and run `dnsChanger.exe` as Administrator.
+1. Go to the [release page](https://github.com/ali-moments/dnsChanger/releases/tag/publish).
+2. Download the latest `dnsChangerInstaller.msi` file and then install it.
 
 > **Note:** Changing DNS settings requires administrator rights.
 
@@ -59,7 +58,7 @@ A simple Windows desktop application to quickly change the DNS servers of your n
 1. **Run the application**.
 2. **Select a network adapter** from the dropdown.
 3. **Choose a DNS provider** from the list or table.
-4. Click **Connect** to apply the DNS settings.
+4. Click **Set** to apply the DNS settings.
 5. Use the **Ping** button to test the selected DNS server.
 6. Optionally, enable the **Clear on Exit** switch to restore automatic DNS when closing.
 
