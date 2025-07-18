@@ -77,3 +77,10 @@ A simple Windows desktop application to quickly change the DNS servers of your n
 ## License
 
 [GPL3](LICENSE)
+
+
+## TODO
+
+- [ ] add more dns servers
+- [ ] set custom dns server
+- [ ] show current dns on startup
