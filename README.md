@@ -87,6 +87,7 @@ A simple Windows desktop application to quickly change the DNS servers of your n
 - [ ] reset network
 - [ ] clear cache
 - [ ] add and edit dns servers
+- [ ] add tray icon
 
 
 <!--  
